@@ -14,7 +14,9 @@ title: Josh Sullivan
    </p>
  </header>
 
-I'm Josh and I like solving problems. I live in Bend, Oregon, with my son. When we're not conquering 8-bit video games, I'm developing a better platform at G5, the leading provider of local marketing solutions.
+I'm Josh and I like solving problems. I live in Bend, Oregon, with my son. 
+
+When we're not conquering 8-bit video games, I'm  planning conferences, building apps, and developing a better platform at G5, the leading provider of local marketing solutions.
 
 I like Ruby, responsive design, Carl Sagan, and Edward Tufte.
 
