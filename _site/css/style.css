@@ -9,10 +9,10 @@ body {
 a {
   text-decoration: none;
   font-weight: 400;
-  color: blue;
+  color: #57bf66;
 }
 a:visited {
-  color: blue;
+  color: #57bf66;
 }
 h1 {
   font-family: 'Lato', sans-serif;
@@ -22,11 +22,25 @@ h1 {
 header {
   text-align: center;
 }
-nav {text-align: center;}
+nav {
+  text-align: center;
+  background: #69D2E7;
+  height: 32px;
+  padding-top: 10px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
+}
 nav ul {list-style: none;}
 nav ul li {
   display: inline;
   padding-right: 5%;
+}
+nav ul li a {
+  color: #fff;
 }
 nav ul li:last-child {padding: 0;}
 
@@ -40,7 +54,6 @@ px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
 	width: 896px;
-	padding: 72px 48px 84px;
 	color: rgb(60,60,60);
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
@@ -59,7 +72,6 @@ px      68    160    252    344    436    528    620    712    */
 	
 	body {
 		width: 712px;
-		padding: 48px 28px 60px;
 	}
 }
 
@@ -77,7 +89,6 @@ px      68    160    252    */
 	
 	body {
 		width: 252px;
-		padding: 48px 34px 60px;
     background: url("/images/small-crackle-bright.png") repeat;
 	}
 	
@@ -97,7 +108,6 @@ px      68    160    252    344    436    */
 	
 	body {
 		width: 436px;
-		padding: 36px 22px 48px;
 	}
 	
 }
