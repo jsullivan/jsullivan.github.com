@@ -2,7 +2,19 @@
 layout: default
 title: Josh Sullivan
 ---
-I'm Josh and I like solving problems. I live in Bend, Oregon, with my son, Henry. When we're not playing 8-bit video games, I'm developing a better platform at G5, the leading provider of local marketing solutions.
+ <header>
+   <h1> Josh Sullivan</h1>
+   <p class="light">
+     dad to <a href="">Henry</a>,
+     <br />
+     organizer of <a href="http://ruby.onales.com">Ruby on Ales</a>,
+     <br />
+     co-founder of <a href="http://nvariable.com">nVariable</a>,
+     <br />developer at <a href="http://twitter.com/#!/g5platform">G5</a>
+   </p>
+ </header>
+
+I'm Josh and I like solving problems. I live in Bend, Oregon, with my son. When we're not conquering 8-bit video games, I'm developing a better platform at G5, the leading provider of local marketing solutions.
 
 I like Ruby, responsive design, Carl Sagan, and Edward Tufte.
 
