@@ -46,7 +46,12 @@ nav ul li a {
   color: #fff;
 }
 nav ul li:last-child {padding: 0;}
-
+.badges {margin: 5% 0;}
+.badges ul {list-style: none;}
+.badges ul li {
+  display: inline;
+  padding-right: 5%;
+}
 /*		Default Layout: 992px. 
 		Gutters: 24px.
 		Outer margins: 48px.
@@ -93,6 +98,7 @@ px      68    160    252    */
 	body {
 		width: 252px;
 	}
+  .badges {display: none;}
 	
 }
 

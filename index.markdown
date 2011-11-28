@@ -14,7 +14,7 @@ title: Josh Sullivan
    </p>
  </header>
 
-I'm Josh and I like solving problems. I live in Bend, Oregon, with my son. 
+I'm Josh and I like to solve problems. I live in Bend, Oregon, with my son. 
 
 When we're not conquering 8-bit video games, I'm  planning conferences, building apps, and developing a better platform at G5, the leading provider of local marketing solutions.
 
