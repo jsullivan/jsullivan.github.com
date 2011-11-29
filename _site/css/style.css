@@ -1,5 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+/*	Resets taken from Less Framework
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
 body {
   font-size: 1em;
   font-family: 'Lato', sans-serif;
@@ -24,6 +46,7 @@ h1 {
 }
 header {
   text-align: center;
+  margin: 5% 0;
 }
 nav {
   text-align: center;
@@ -42,15 +65,19 @@ nav ul li {
   display: inline;
   padding-right: 5%;
 }
+nav ul li:last-child {padding-right: 0;}
 nav ul li a {
   color: #fff;
 }
-nav ul li:last-child {padding: 0;}
-.badges {margin: 5% 0;}
-.badges ul {list-style: none;}
-.badges ul li {
-  display: inline;
-  padding-right: 5%;
+.badges {margin:0 ;}
+.badge{;
+  width: 224px;
+  float: left;
+  text-align: center;
+}
+.badge img {margin: 0 0 10px 0;}
+.badge_title {
+  text-align: center;
 }
 /*		Default Layout: 992px. 
 		Gutters: 24px.
@@ -81,6 +108,7 @@ px      68    160    252    344    436    528    620    712    */
 	body {
 		width: 712px;
 	}
+  .badges img {height: 118px;}
 }
 
 
