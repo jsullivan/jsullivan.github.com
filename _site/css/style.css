@@ -69,16 +69,23 @@ nav ul li:last-child {padding-right: 0;}
 nav ul li a {
   color: #fff;
 }
-.badges {margin:0 ;}
-.badge{;
+.badge_container {
   width: 224px;
   float: left;
   text-align: center;
 }
-.badge img {margin: 0 0 10px 0;}
+.badge_container img {margin: 0 0 10px 0;}
+.badge {height: 175px;}
 .badge_title {
+  font-weight: 300;
   text-align: center;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  padding: 10px 0;
+  border-color: #C0C0C0;
 }
+.badge_title a {display: block;}
+
 /*		Default Layout: 992px. 
 		Gutters: 24px.
 		Outer margins: 48px.
@@ -108,7 +115,13 @@ px      68    160    252    344    436    528    620    712    */
 	body {
 		width: 712px;
 	}
-  .badges img {height: 118px;}
+  .badge {height: 125px;}
+  .badge img {height: 118px;}
+  .badge_container {width: 178px;}
+  .badge_title {
+    padding: 5px 0;
+  }
+
 }
 
 
@@ -126,7 +139,13 @@ px      68    160    252    */
 	body {
 		width: 252px;
 	}
-  .badges {display: none;}
+  .badge {display: none;}
+  .badge_title {
+    border: 0;
+    padding: 0;
+  }
+
+  .badge_title a {display: inline;}
 	
 }
 
