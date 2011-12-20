@@ -1,7 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Open Sans:300,400,800);
 
-/*	Resets taken from Less Framework
-	------	*/
+/* Resets taken from Less Framework
+------*/
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
 p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
@@ -10,55 +10,46 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figure, figcaption, hgroup, 
 menu, footer, header, nav, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 article, aside, canvas, figure, figure img, figcaption, hgroup,
 footer, header, nav, section, audio, video {
-	display: block;
+  display: block;
 }
 
 a img {border: 0;}
 
-body {
-  font-size: 1em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  margin: 0 auto;
-}
-.light {
-  font-weight: 300;
+html>body { font-size: 16px;}
+
+p {
+  line-height: 1.5em;
+  margin: 1.5em 0;
 }
 a {
   text-decoration: none;
   font-weight: 400;
-  color: #1d9402;
+  color: #107FC9;
+  line-height: 1.5em;
 }
 a:visited {
-  color: #1d9402;
+  color: #107FC9;
 }
 h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
   font-size: 2em;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
 }
 header {
-  text-align: center;
-  margin: 5% 0;
 }
 nav {
-  text-align: center;
-  background: #69D2E7;
-  height: 32px;
-  padding-top: 10px;
-  -moz-border-radius-topleft: 0px;
-  -moz-border-radius-topright: 0px;
-  -moz-border-radius-bottomright: 5px;
-  -moz-border-radius-bottomleft: 5px;
-  -webkit-border-radius: 0px 0px 5px 5px;
-  border-radius: 0px 0px 5px 5px;
 }
 nav ul {list-style: none;}
 nav ul li {
@@ -67,54 +58,70 @@ nav ul li {
 }
 nav ul li:last-child {padding-right: 0;}
 nav ul li a {
-  color: #fff;
 }
-.badge_container {
-  width: 224px;
+.read_more {text-align: right;}
+footer {
+  background: #333;
+  min-height: 120px;
+  padding: 24px;
+  margin-top: 1.5em;
+  color: #888;
+}
+footer h1 {color: #999; margin-top: 0;}
+footer img {
+  display: inline;
   float: left;
-  text-align: center;
+  margin-right: 24px;
 }
-.badge_container img {margin: 0 0 10px 0;}
-.badge {height: 175px;}
-.badge_title {
-  font-weight: 300;
-  text-align: center;
-  border-width: 1px 0 1px 0;
-  border-style: solid;
-  padding: 10px 0;
-  border-color: #C0C0C0;
+footer ul {list-style: none;}
+.bio {
+  float: left;
+  width: 350px;
 }
-.badge_title a {display: block;}
-
-/*		Default Layout: 992px. 
-		Gutters: 24px.
-		Outer margins: 48px.
-		Leftover space for scrollbars @1024px: 32px.
+/*  Default Layout: 992px. 
+  Gutters: 24px.
+  Outer margins: 48px.
+  Leftover space for scrollbars @1024px: 32px.
 -------------------------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
 body {
-	width: 896px;
-	color: rgb(60,60,60);
-	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+  /*background: url(/images/vertical_rhythym.jpg) repeat;*/
+  background: url(/images/background.jpg) repeat;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  color: #333;
+  -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+.post_container {
+  width: 33em;
+  margin: 0 auto;
+}
+.post_container  img {
+  height: 312px;
+  margin: 1.5em 0;
+  box-shadow: 0 0 4px #666;
 }
 
 
 
-/*		Tablet Layout: 768px.
-		Gutters: 24px.
-		Outer margins: 28px.
-		Inherits styles from: Default Layout.
+
+/*  Tablet Layout: 768px.
+  Gutters: 24px.
+  Outer margins: 28px.
+  Inherits styles from: Default Layout.
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
-	body {
-		width: 712px;
-	}
+  .container {
+    width: 712px;
+    margin: 0 auto;
+  }
   .badge {height: 125px;}
   .badge img {height: 118px;}
   .badge_container {width: 178px;}
@@ -126,58 +133,74 @@ px      68    160    252    344    436    528    620    712    */
 
 
 
-/*		Mobile Layout: 320px.
-		Gutters: 24px.
-		Outer margins: 34px.
-		Inherits styles from: Default Layout.
+/*  Mobile Layout: 320px.
+  Gutters: 24px.
+  Outer margins: 34px.
+  Inherits styles from: Default Layout.
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
-	
-	body {
-		width: 252px;
-	}
+  html>body { font-size: 14px;}
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    }
+
   .badge {display: none;}
   .badge_title {
     border: 0;
     padding: 0;
   }
-
   .badge_title a {display: inline;}
-	
+  .post_container {
+    width: 252px;
+    margin 0 auto;
+  }
+  .post_container img {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+  background: #333;
+  min-height: 120px;
+  padding: 12px;
+  margin-top: 1.5em;
+  color: #888;
+  }
+  .bio {width: 200px;}
 }
 
 
 
-/*		Wide Mobile Layout: 480px.
-		Gutters: 24px.
-		Outer margins: 22px.
-		Inherits styles from: Default Layout, Mobile Layout.
+/*  Wide Mobile Layout: 480px.
+  Gutters: 24px.
+  Outer margins: 22px.
+  Inherits styles from: Default Layout, Mobile Layout.
 ------------------------------------------------------------
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
-	body {
-		width: 436px;
-	}
-	
+
+  .post_container {
+    width: 436px;
+    margin: 0 auto;
+  }
 }
 
-/*	Retina media query.
-	Overrides styles for devices with a 
-	device-pixel-ratio of 2+, such as iPhone 4.
+/*  Retina media query.
+  Overrides styles for devices with a 
+  device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
 
 @media 
-	only screen and (-webkit-min-device-pixel-ratio: 2),
-	only screen and (min-device-pixel-ratio: 2) {
-	
-	body {
-	
-	}
-	
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+
+  body {
+
+  }
+
 }
