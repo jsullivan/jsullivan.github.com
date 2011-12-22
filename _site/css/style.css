@@ -48,36 +48,52 @@ h1 {
   margin-top: 1.5em;
 }
 header {
+  height: 1.5em;
+  text-align: right;
+  background: #333;
 }
 nav {
+  text-align: right;
 }
+nav a, nav a:visited {color: #fff;}
 nav ul {list-style: none;}
 nav ul li {
   display: inline;
-  padding-right: 5%;
+  padding-right: 2em
 }
-nav ul li:last-child {padding-right: 0;}
-nav ul li a {
-}
-.read_more {text-align: right;}
 footer {
-  background: #333;
+  /*background: url(/images/vertical_rhythym_reverse.png) repeat;*/
+  background-color: #333;
   min-height: 120px;
   padding: 24px;
   margin-top: 1.5em;
-  color: #888;
+  color: #C0C0C0;
 }
-footer h1 {color: #999; margin-top: 0;}
+footer h1 {color: #C0C0C0; margin-top: 0;}
 footer img {
   display: inline;
   float: left;
   margin-right: 24px;
 }
-footer ul {list-style: none;}
-.bio {
-  float: left;
-  width: 350px;
+footer ul {
+  list-style: none;
+  margin-top: 1.5em;
 }
+footer figure {float: left;}
+.left_bio {
+  float: left;
+}
+.right_bio {
+  display: block;
+  float: left;}
+}
+/* Selection colours (easy to forget) */
+
+::selection 	 	{background: #107FC9;}
+::-moz-selection 	{background: #107FC9;}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: #107FC9;}
 /*  Default Layout: 992px. 
   Gutters: 24px.
   Outer margins: 48px.
@@ -96,7 +112,7 @@ body {
   color: #333;
   -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
-.post_container {
+.post_container, .bio_container {
   width: 33em;
   margin: 0 auto;
 }
@@ -104,6 +120,14 @@ body {
   height: 312px;
   margin: 1.5em 0;
   box-shadow: 0 0 4px #666;
+}
+.read_more {
+  float: right;
+  clear: left;
+  background: url(/images/continue_arrow.png) no-repeat;
+  background-position: right;
+  padding-right: 18px;
+  margin-bottom: 1.5em;
 }
 
 
@@ -118,17 +142,6 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .container {
-    width: 712px;
-    margin: 0 auto;
-  }
-  .badge {height: 125px;}
-  .badge img {height: 118px;}
-  .badge_container {width: 178px;}
-  .badge_title {
-    padding: 5px 0;
-  }
-
 }
 
 
@@ -148,13 +161,7 @@ px      68    160    252    */
     line-height: 1.5em;
     }
 
-  .badge {display: none;}
-  .badge_title {
-    border: 0;
-    padding: 0;
-  }
-  .badge_title a {display: inline;}
-  .post_container {
+  .post_container, .bio_container{
     width: 252px;
     margin 0 auto;
   }
@@ -163,13 +170,9 @@ px      68    160    252    */
     height: auto;
   }
   footer {
-  background: #333;
-  min-height: 120px;
   padding: 12px;
   margin-top: 1.5em;
-  color: #888;
   }
-  .bio {width: 200px;}
 }
 
 
@@ -184,7 +187,7 @@ px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-  .post_container {
+  .post_container, .bio_container {
     width: 436px;
     margin: 0 auto;
   }

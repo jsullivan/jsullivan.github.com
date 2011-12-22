@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Josh Sullivan
-from_the_blog: 2
+from_the_blog: 1
 ---
 
 {% for post in site.posts %}
@@ -13,8 +13,9 @@ from_the_blog: 2
   </figure>
   {{ post.content | truncatewords: 100 }}
   <div class="read_more">
-    <a href="{{ post.url}}">Continue</a>
+    <a href="{{ post.url}}">Continue reading</a>
   </div>
+  <div class="clearfix"></div>
 </div>
 {% endif %}
 {% endfor %}
