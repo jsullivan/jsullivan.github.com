@@ -1,3 +1,11 @@
 Image width: 531px
 Image height: 312px
 Footnote hex code: &#8617
+Footnote example: 
+--
+This is a footnote.<sup>[<a id="footnote-1-ref" href="#footnote-1">1</a>]</sup> This is the following sentence.
+
+<hr />
+
+<sup id="footnote-1">1</sup>This is my first footnote. <a id="footnote-1" href="#footnote-1-ref">&#8617;</a>
+--
