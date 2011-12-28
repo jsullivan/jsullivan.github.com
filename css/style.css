@@ -41,6 +41,7 @@ a {
   color: #107FC9;
   line-height: 1.5em;
 }
+a:hover {text-decoration: underline;}
 a:visited {
   color: #107FC9;
 }
@@ -64,19 +65,35 @@ h2 {
   font-size: 1.5em;
   line-height: 1em;
 }
+sup {
+  height: 0;
+  line-height: 1;
+  vertical-align: baseline;
+  _vertical-align: bottom;
+  position: relative;
+  bottom: 1ex;
+}
 header {
   height: 1.5em;
   text-align: right;
   background: #333;
 }
+.logo {
+  left: 21px;
+  width: 128px;
+  height: 54px;
+  position: absolute;
+  background: url(/images/logo.png) no-repeat;
+}
 nav {
-  text-align: right;
+  text-align: left;
+  margin-left: 152px;
 }
 nav a, nav a:visited {color: #fff;}
 nav ul {list-style: none;}
 nav ul li {
   display: inline;
-  padding-right: 2em
+  padding-right: 2em;
 }
 footer {
   /*background: url(/images/vertical_rhythym_reverse.png) repeat;*/
