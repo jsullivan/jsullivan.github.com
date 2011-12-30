@@ -9,7 +9,9 @@ from_the_blog: 3
 <div class="post_container">
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <figure>
-    <img src="/images/{{ post.image }}" />
+    <a href="{{ post.url}}">
+      <img src="/images/{{ post.image }}" />
+    </a>
   </figure>
   {{ post.content | truncatewords: 50 }}
   <div class="read_more">

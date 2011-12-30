@@ -46,10 +46,10 @@ a:visited {
   color: #107FC9;
 }
 hr {
-  background-color: #C0C0C0;
+  background-color: #999;
   height: 1px;
-  width: 66%;
 }
+
 h1 {
   font-weight: 800;
   font-size: 2em;
@@ -73,6 +73,7 @@ sup {
   position: relative;
   bottom: 1ex;
 }
+blockquote {margin-left: 5em;}
 header {
   height: 1.5em;
   text-align: right;
@@ -190,6 +191,8 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .logo {margin-left: 90px;}
+  nav {margin-left: 242px;}
 }
 
 
@@ -208,7 +211,7 @@ px      68    160    252    */
     font-size: 1em;
     line-height: 1.5em;
     }
-
+  .logo {left: 25px;}
   .post_container, .bio_container{
     width: 252px;
     margin 0 auto;
@@ -239,6 +242,8 @@ px      68    160    252    344    436    */
     width: 436px;
     margin: 0 auto;
   }
+  .logo {left: 14px;}
+
   footer h1 {font-size: 1em;}
 }
 
