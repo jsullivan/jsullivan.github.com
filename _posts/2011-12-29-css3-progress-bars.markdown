@@ -25,7 +25,7 @@ These progress bars are <a href="https://github.com/jsullivan/CSS3-Progress-bars
   Round
   <div class="bar_container rounded_bar_container">
     <div class="bar_mortice rounded">
-      <div class="rounded" style="width: 80%;"></div>
+      <div class="progress rounded" style="width: 80%;"></div>
     </div>
   </div>
 </p>
