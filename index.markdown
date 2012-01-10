@@ -13,7 +13,7 @@ from_the_blog: 3
       <img src="/images/{{ post.image }}" />
     </a>
   </figure>
-  {{ post.content | truncatewords: 30 }}
+  {{ post.content | truncatewords: 32 }}
   <div class="read_more">
     <a href="{{ post.url}}">Continue reading</a>
   </div>
