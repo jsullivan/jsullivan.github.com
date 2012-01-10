@@ -19,7 +19,7 @@ Positively reinforcing users as they interact with your software conditions them
 
 > The desire to receive symbols of achievement has been one I've observed over both my 14 years of being a parent and my 20 years in martial arts, with both children and adults working diligently toward that next belt level.
 
-Every good deed, skill, or accomplishment is rewarded by unlocking a badge that can then be shared with friends and family. That's why the app works so well at driving its users back to Commendable Kids. The authors of the great book, Game-Based Marketing, say of badges:
+Every good deed, skill, or accomplishment is rewarded by unlocking a badge that can then be shared with friends and family. That's why the app works so well at driving its users back to Commendable Kids. The authors of Game-Based Marketing say of badges:
 
 > Often represented visually, badges show that players have completed specific tasks. The badge’s value is a powerful and fundamentally social game mechanic. While society generally discourages personal claims of accomplishment like bragging, badges allow boasting without being obvious.<sup>[<a id="footnote-5-ref" href="#footnote-5">5</a>]</sup>
 
@@ -28,7 +28,7 @@ Badges are just one way to positively reinforce behavior in software. Implementi
 ## Cut a clear path
 Conditioning a rat to tap a pedal for a food pellet is one thing, but cultivating complex habitual behavior in humans requires testing, logging, and a series of successive approximations. B.F. Skinner, who developed the theory of operant conditioning, referred to this process as shaping.<sup>[<a id="footnote-6-ref" href="#footnote-6">6</a>]</sup> If the behavior that you want to cultivate into habits is complex, then you must shape their behavior in steps over time.
 
-Condition your customers into complex behavior with a series of steps to get them there. The best way to do this is to iterate in small chunks over the features you develop, deploying often and getting feedback. This keeps you engaged with your customers and trains them toward the final behavior you expect, rather than pushing out a new feature which is repellant because of its complexity. Be patient. Habits take time to create, and the more complex the behavior, the longer it takes to solidify that behavior into something habitual. Susan M. Weinschenk, Ph.D., writes:
+Condition your customers into complex behavior with a series of steps to get them there. The best way to do this is to iterate over the features you develop in small chunks, deploying often and getting feedback. This keeps you engaged with your customers and trains them toward the final behavior you expect, rather than pushing out a new feature which is repellant because of its complexity. Be patient. Habits take time to create, and the more complex the behavior, the longer it takes to solidify that behavior into something habitual. Author and behavioral psychologist Susan M. Weinschenk, Ph.D., writes:
 
 > If you want people to commit to something big, you first need to get them to commit to something that is related, but very small. This changes their self-persona, which opens the door to larger commitments. When people form a habit, they are essentially making a new commitment. Choose something small for them to do first and then you can build a bigger habit and commitment later.<sup>[<a id="footnote-7-ref" href="#footnote-7">7</a>]</sup>
 
