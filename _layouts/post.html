@@ -13,7 +13,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>{{ page.title | capitalize }}, by Josh Sullivan</title>
-  <meta name="description" content="{{ content | truncate: 155 }}">
+  <meta name="description" content="{{ content | truncate: 155 | strip_html }}">
   <meta name="author" content="">
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
@@ -47,6 +47,10 @@
     </header>
     <div class="post_container">
       <h1> {{ page.title }} </h1>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="jsullivandigs">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <a href="https://twitter.com/jsullivandigs" class="twitter-follow-button" data-show-count="false">Follow @jsullivandigs</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       <figure>
         <img src="/images/{{ page.image }}" />
       </figure>
