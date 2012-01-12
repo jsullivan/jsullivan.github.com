@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Josh Sullivan
-from_the_blog: 3
+from_the_blog: 5
 ---
 
 {% for post in site.posts %}

@@ -143,6 +143,7 @@ footer figure {float: left;}
 img::selection {background: transparent;}
 img::-moz-selection {background: transparent;}
 body {-webkit-tap-highlight-color: #107FC9;}
+
 /*  Default Layout: 992px. 
   Gutters: 24px.
   Outer margins: 48px.
@@ -178,8 +179,29 @@ body {
   padding-right: 18px;
   margin-bottom: 1.5em;
 }
+.guest_writer {
+  background: #E8E8E8;
+  margin-bottom: 1.5em;
+  padding: 1.5em; 0
+}
+.guest_photo {
+  float: left;
+  display: inline;
+  padding-right: 1em;
+}
+.guest_writer p {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 
-
+.guest_writer .guest_photo img {
+  height:78px;
+  width: 78px;
+  display: inline;
+  margin: 0;
+}
 
 
 /*  Tablet Layout: 768px.
